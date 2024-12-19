@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import BurgerKing from '../assets/BurgerKing.png';
+import EmojiApp from '../assets/Emoji.png';
+import Calci from '../assets/Calci.png';
 
 const Projects = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('All');
@@ -61,7 +64,7 @@ const Projects = () => {
         },
         {
           title : 'Basic Calulator',
-          imgSrc: '../assets/Calci.png',
+          imgSrc: Calci,
           liveDemo : 'https://unified-mentor-4gmv.vercel.app/',
           // githubRepo: 'https://github.com/YashMankar1812/Unified_Mentor/tree/main/0_Basic_Calculator',
           description: 'A basic calculator web app.',
@@ -69,7 +72,7 @@ const Projects = () => {
         },
         {
           title: 'Emoji App',
-          imgSrc: '../assets/Emoji.png',
+          imgSrc: EmojiApp,
           liveDemo: 'https://emogi.netlify.app/',
           // githubRepo: 'https://github.com/YashMankar1812/Emoji',
           description: 'A web app to find and share emojis.',
@@ -77,7 +80,7 @@ const Projects = () => {
         },
         {
           title: 'BurgerKing',
-          imgSrc: '../assets/BurgerKing.png',
+          imgSrc: BurgerKing,
           liveDemo: 'https://burger-king-chi.vercel.app/',
           // githubRepo: 'https://github.com/YashMankar1812/Burger-King',
           description: 'A web app for ordering burgers at Burger King.',
