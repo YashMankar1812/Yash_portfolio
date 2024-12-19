@@ -17,7 +17,7 @@ const certifications = [
     id:2,
     title: "Front End Development Libraries",
     organization: skyscanner,
-    imgSrc: "src/assets/Skyscanner.png", // Replace with actual image path
+    imgSrc: skyscanner, // Replace with actual image path
     // description: "Certification on front-end development tools and libraries, including React, Redux, Bootstrap, and jQuery.",
     // link: "https://www.linkedin.com/in/yash-mankar-50625825b/recent-activity/images/"
   },
