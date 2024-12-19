@@ -83,9 +83,9 @@ const Academics = () => {
   ];
 
   return (
-    <div className="py-20 bg-black">
+    <div className="py-20 bg-slate-800 dark:bg-black">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+        <h2 className="text-6xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           My Academics
         </h2>
 
@@ -94,7 +94,7 @@ const Academics = () => {
           {educationDetails.map((education, index) => (
             <div
               key={index}
-              className="p-6 bg-gray-800 shadow-lg rounded-lg transition-transform duration-300 hover:scale-105"
+              className="p-6 bg-transparent shadow-lg rounded-lg transition-transform duration-300 hover:scale-105 border-2 border-yellow-500"
             >
               <h3 className="text-2xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500">
                 {education.level}

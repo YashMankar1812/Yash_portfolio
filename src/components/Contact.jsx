@@ -19,11 +19,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact bg-black text-white py-20 px-8 lg:px-20 h-screen flex items-center justify-center">
+    <section id="contact" className="contact  bg-slate-800 dark:bg-black  text-white py-20 px-8 lg:px-20 h-screen flex items-center justify-center">
       <div className="container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Contact Information */}
         <div className="information space-y-8 flex flex-col items-start justify-center">
-          <h1 className="text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+          <h1 className="text-4xl  text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             Contact Me
           </h1>
           <p className="text-lg text-gray-300">
@@ -42,8 +42,8 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="form flex flex-col items-center justify-centerbg-black p-8 rounded-lg shadow-xl">
-          <h2 className="text-2xl font-semibold text-center mb-6">Send Me a Message</h2>
+        <div className="form flex flex-col items-center justify-centerbg-black p-8 ">
+          <h2 className="text-2xl font-semibold mb-6">Send Me a Message</h2>
           <form onSubmit={handleSubmit} className="flex items-center gap-4 w-full">
             <input
               type="email"

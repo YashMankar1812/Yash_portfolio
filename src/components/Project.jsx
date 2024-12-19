@@ -146,9 +146,9 @@ const Projects = () => {
   const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
 
   return (
-    <section className="project-section py-16 h-full bg-black" id="project">
+    <section className="project-section py-16 h-full  bg-slate-800 dark:bg-black " id="project">
       <div className="text-center justify-evenly mb-8">
-        <h2 className="text-4xl font-bold text-gray-400 dark:text-white mt-5">
+        <h2 className="text-4xl  text-gray-400 dark:text-white mt-5 text-left px-5 py-5">
         Explore <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500">       My Work</span>
         </h2>
         

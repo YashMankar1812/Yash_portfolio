@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
 import Academics from './Academics';
+import freecodecamp from '../assets/freecodecamp.png';
+import skyscanner from '../assets/Skyscanner.png';  
+import gitgithub  from '../assets/Git_Github.png';
+import Java from '../assets/Java.png';
 
 const certifications = [
   {
     id:1,
     title: "Responsive Web Design",
     organization: "freeCodeCamp",
-    imgSrc: "/src/assets/freecodecamp.png", // Replace with actual image path
+    imgSrc: freecodecamp, // Replace with actual image path
     // link: "https://www.freecodecamp.org/certification/yashmankar/responsive-web-design"
   },
   {
     id:2,
     title: "Front End Development Libraries",
-    organization: "SkyScanner",
+    organization: skyscanner,
     imgSrc: "src/assets/Skyscanner.png", // Replace with actual image path
     // description: "Certification on front-end development tools and libraries, including React, Redux, Bootstrap, and jQuery.",
     // link: "https://www.linkedin.com/in/yash-mankar-50625825b/recent-activity/images/"
@@ -21,7 +25,7 @@ const certifications = [
     id:3,
     title: "Java Basic",
     organization: "Geekster",
-    imgSrc: "src/assets/Screenshot 2024-05-27 125546.png", // Replace with actual image path
+    imgSrc: Java, // Replace with actual image path
     // description: "Certification on Java programming, covering basic syntax, OOP concepts, and problem-solving techniques.",
     // link: "https://www.linkedin.com/in/yash-mankar-50625825b/recent-activity/images/"
   },
@@ -29,7 +33,7 @@ const certifications = [
     id:4,
     title: "Git & GitHub",
     organization: "Geekster",
-    imgSrc: "src/assets/Screenshot 2024-06-02 233140.png", // Replace with actual image path
+    imgSrc: gitgithub, // Replace with actual image path
     // description: "Comprehensive certification on Git version control and GitHub repository management.",
     // link: "https://www.linkedin.com/in/yash-mankar-50625825b/recent-activity/images/"
   },
@@ -56,13 +60,13 @@ const Certifications = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-6 mt-22">
         {/* Left Side - Certification List */}
         <div className="w-full md:w-1/3 bg-transparent text-gray-300 p-4">
-          <h2 className="text-4xl font-bold text-center text-gray-100 mb-8 dark:text-white mt-10">
+          <h3 className="text-5xl  text-center text-gray-100 mb-8 dark:text-white mt-10">
             My
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
               {" "}
               Certifications
             </span>
-          </h2>
+          </h3>
           <ul className="space-y-4">
             {certifications.map((cert, index) => (
               <li
