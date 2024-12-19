@@ -9,10 +9,10 @@ import { faWind } from '@fortawesome/free-solid-svg-icons';
 const Skills = () => {
   return (
     <section id="skill"
-    style={{
-      background: 'linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460)',
-    }}
-    className="py-16 bg-black dark:bg-white h-full">
+    // style={{
+    //   background: 'linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460)',
+    // }}
+    className="py-16  h-full bg-slate-800 dark:bg-black">
       <div className="container mx-auto text-center">
         <h1 className="text-5xl font-bold text-gray-400 dark:text-black dark:text-white">
           My <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500">Skills</span>

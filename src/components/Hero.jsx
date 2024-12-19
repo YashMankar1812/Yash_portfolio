@@ -27,13 +27,13 @@ const Hero = () => {
 
   return (
     <div
-      className="min-h-screen min-w-full flex flex-col justify-center items-center py-16 text-white sm:20"
+      className="min-h-screen min-w-full flex flex-col justify-center items-center py-16 text-white sm:20 bg-slate-800 dark:bg-black "
       id="home"
-      style={{
-        background: theme === 'dark'
-          ? '#1a1a2e' // dark mode background
-          : 'linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460)',
-      }}
+      // style={{
+      //   background: theme === 'dark'
+      //     ? '#1a1a2e' // dark mode background
+      //     : 'linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460)',
+      // }}
     >
       {!showImageAndText ? (
         <div className="text-center opacity-100 transition-opacity duration-1000 ease-in-out">
@@ -64,7 +64,7 @@ const Hero = () => {
           {/* Right Text */}
           <div className="w-full md:w-1/2 text-center md:text-left opacity-100 transition-opacity duration-1000 ease-in-out animate__animated animate__fadeInRight">
             <TypingText />
-            <p className="text-lg text-gray-400 mb-4 mt-4">
+            <p className="text-lg text-gray-400 mb-4 mt-4 px-5 py-10  text-justify">
               Passionate web developer creating dynamic and user-friendly websites. Skilled in JavaScript, React, and modern web technologies.
             </p>
             <div className="mt-10">

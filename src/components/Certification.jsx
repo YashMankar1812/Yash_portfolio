@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Academics from './Academics';
 
 const certifications = [
   {
@@ -42,11 +43,14 @@ const Certifications = () => {
   };
 
   return (
+
+    <>
+    
     <section
-      style={{
-        background: 'linear-gradient(to top, #1a1a2e, #16213e, #0f3460)',
-      }}
-      className="py-16 h-screen"
+      // style={{
+      //   background: 'linear-gradient(to top, #1a1a2e, #16213e, #0f3460)',
+      // }}
+      className="py-16 h-screen bg-slate-800 dark:bg-black"
       id="certificate"
     >
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-6 mt-22">
@@ -104,6 +108,8 @@ const Certifications = () => {
 
       </div>
     </section>
+    <Academics/>
+    </>
   );
 };
 
