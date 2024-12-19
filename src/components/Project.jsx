@@ -9,35 +9,128 @@ const Projects = () => {
   const projectsPerPage = 6;
 
   const projects = [
-    {
-      title: 'Gym Project',
-      imgSrc: GymProjectImage,
-      liveDemo: 'https://gym-project-green-delta.vercel.app/',
-      description: 'A fully responsive gym website with modern UI.',
-      language: 'HTML/CSS',
-    },
-    {
-      title: 'Business Page',
-      imgSrc: '../assets/Bussiness.png',
-      liveDemo: 'https://yashmankar1812.github.io/BussinessPage/',
-      description: 'A sleek business page to showcase company services and products.',
-      language: 'HTML/Tailwind',
-    },
-    {
-      title: 'Amazon UI',
-      imgSrc: '../assets/Amazon.png',
-      liveDemo: 'https://yashmankar1812.github.io/Weekly_Test-5/',
-      description: 'A replica of the Amazon UI with responsive features.',
-      language: 'HTML/CSS',
-    },
-    {
-      title: 'YouTube UI',
-      imgSrc: '../assets/youtube.png',
-      liveDemo: 'https://youtube-ui-ten.vercel.app/',
-      description: 'A UI clone of YouTube with dark mode support.',
-      language: 'HTML/CSS',
-    },
-  ];
+        {
+          title: 'Gym Project',
+          imgSrc: GymProjectImage ,
+          liveDemo: 'https://gym-project-green-delta.vercel.app/',
+          // githubRepo: 'https://github.com/username/gym-project',
+          description: 'A fully responsive gym website with modern UI .',
+          language: 'HTML/CSS', // Add language here
+        },
+        {
+          title: 'Business Page',
+          imgSrc: '../assets/Bussiness.png',
+          liveDemo: 'https://yashmankar1812.github.io/BussinessPage/',
+          // githubRepo: 'https://github.com/yashmankar1812/BussinessPage',
+          description: 'A sleek business page to showcase company services and products.',
+          language: 'HTML/Tailwind',
+        },
+        // {
+        //   title: 'Camping Services',
+        //   imgSrc: '../assets/Camping.png',
+        //   liveDemo: 'https://weekly-t-4.vercel.app',
+        //   githubRepo: 'https://github.com/username/camping-services',
+        //   description: 'A landing page for camping services with booking options.',
+        //   language: 'Html/CSS',
+        // },
+        {
+          title: 'Amazon UI',
+          imgSrc: '../assets/Amazon.png',
+          liveDemo: 'https://yashmankar1812.github.io/Weekly_Test-5/',
+          // githubRepo: 'https://github.com/yashmankar1812/Weekly_Test-5',
+          description: 'A replica of the Amazon UI with responsive features.',
+          language: 'HTML/CSS',
+        },
+        {
+          title: 'YouTube UI',
+          imgSrc: '../assets/youtube.png',
+          liveDemo: 'https://youtube-ui-ten.vercel.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Youtube_UI',
+          description: 'A UI clone of YouTube with dark mode support.',
+          language: 'Html/CSS',
+        },
+    
+    
+        // Javascript 
+        {
+          title: 'Divi Team Work',
+          imgSrc: '../assets/Divi.png',
+          liveDemo: 'https://aditya234892.github.io/ELEGANT-THEMES-Team/divi/divi',
+          // githubRepo: 'https://github.com/aditya234892/ELEGANT-THEMES-Team',
+          description: 'A collaborative project with the Divi Elegant theme integration.',
+          language: 'Javascript',
+        },
+        {
+          title : 'Basic Calulator',
+          imgSrc: 'src/assets/Calci.png',
+          liveDemo : 'https://unified-mentor-4gmv.vercel.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Unified_Mentor/tree/main/0_Basic_Calculator',
+          description: 'A basic calculator web app.',
+          language: 'Javascript',
+        },
+        {
+          title: 'Emoji App',
+          imgSrc: 'src/assets/Emoji.png',
+          liveDemo: 'https://emogi.netlify.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Emoji',
+          description: 'A web app to find and share emojis.',
+          language: 'Javascript',
+        },
+        {
+          title: 'BurgerKing',
+          imgSrc: 'src/assets/BurgerKing.png',
+          liveDemo: 'https://burger-king-chi.vercel.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Burger-King',
+          description: 'A web app for ordering burgers at Burger King.',
+          language: 'Javascript',
+        },
+        {
+          title: 'Pokemon App',
+          imgSrc: '../assets/Pokemon.png',
+          liveDemo: ' https://yashmankar1812.github.io/Pokemon/',
+          // githubRepo: 'https://github.com/YashMankar1812/Pokemon',
+          description: 'A web app to explore and search for Pokémon information.',
+          language: 'Javascript',
+        },
+        
+        {
+          title: 'Movie App',
+          imgSrc: '../assets/MovieApp.png',
+          liveDemo: 'https://moviesearchappp.netlify.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Movie-Search',
+          description: 'A web app for searching movies, displaying details, and user reviews.',
+          language: 'Javascript',
+        },
+    
+    
+    
+        // React projects 
+    
+        {
+          title: 'Image Generator',
+          imgSrc: '../assets/ImageGeneration.png',
+          liveDemo: 'https://geekster-react-js-ft43.vercel.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Axios_hlw',
+          description: 'An image generator that lets users create and customize images with different styles.',
+          language: 'React',
+        },
+        {
+          title: 'Cart Management',
+          imgSrc: '../assets/Ecommerce.png',
+          liveDemo: 'https://geekster-react-js-a8ls.vercel.app/',
+          // githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Day_6_Hlw',
+          description: 'Managing a shopping cart, allowing users to add products and adjust quantities.',
+          language: 'React',
+        },
+        {
+          title: 'People Info Management',
+          imgSrc: '../assets/PeopleManagement.png',
+          liveDemo: 'https://geekster-react-js-36l9.vercel.app/ ',
+          // githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Weekly-T-3',
+          description: 'A web app for managing and displaying user information.',
+          language: 'React',
+        }
+      ];
 
   // Filter projects by language
   const filteredProjects = selectedLanguage === 'All'
@@ -54,7 +147,7 @@ const Projects = () => {
     <section className="project-section py-16 h-full bg-black" id="project">
       <div className="text-center justify-evenly mb-8">
         <h2 className="text-4xl font-bold text-gray-400 dark:text-white mt-5">
-        Explore <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500"> My Work</span>
+        Explore <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500">       My Work</span>
         </h2>
         
         {/* Language Filter Buttons */}
@@ -87,7 +180,7 @@ const Projects = () => {
             <img
               src={project.imgSrc}
               alt={project.title}
-              className="w-full h-64 object-cover transition-transform duration-500 transform group-hover:scale-110"
+              className="w-96 h-48 object-cover transition-transform duration-500 transform group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 flex flex-col justify-center items-center">
               <a
